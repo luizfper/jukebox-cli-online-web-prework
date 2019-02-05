@@ -46,7 +46,7 @@ def run (songs)
   loop do
     help
     puts "Please enter a command:"
-    answer=gets.chomps
+    answer=gets.chomp
     case answer.downcase
     when "exit"
       exit_jukebox
