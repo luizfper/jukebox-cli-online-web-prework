@@ -26,4 +26,8 @@ def play(songs)
   puts "Please enter a song name or number:"
   chosen_song=""
   chosen_song=gets.chomp
+  if songs.include?
+
 end
+
+list(songs)
