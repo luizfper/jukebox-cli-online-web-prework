@@ -13,15 +13,17 @@ my_songs = {
 }
 
 def help
-  #this method should be the same as in jukebox.rb
-
+  puts "I accept the following commands:
+  - help : displays this help message
+  - list : displays a list of songs you can play
+  - play : lets you choose a song to play
+  - exit : exits this program"
 end
 
 
 
 def list(my_songs)
-  #this method is different! Collect the keys of the my_songs hash and
-  #list the songs by name
+  puts my_songs.keys
 end
 
 
