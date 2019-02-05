@@ -41,5 +41,24 @@ end
 def exit_jukebox
   puts "Goodbye"
 end
+
+def run
+  loop do
+    help
+    puts "Please enter a command:"
+    answer=gets.chomps
+    case answer.downcase
+    when "exit"
+      exit_jukebox
+      break
+    when "list"
+      list
+    when "play"
+      play
+    when "help"
+      help
+    end
+  end
+end
 # list(songs)
 # play(songs)
