@@ -27,7 +27,7 @@ def play(songs)
   #chosen_song=""
   answer = gets.chomp
   if answer.to_i!=0
-    chosen_song[answer.to_i]
+    chosen_song[answer.to_i-1]
   end
   if songs.include?(chosen_song)
     puts "Playing #{chosen_song}"
