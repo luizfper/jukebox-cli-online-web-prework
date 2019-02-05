@@ -18,4 +18,6 @@ def help
 - exit : exits this program"
 end
 
-def play
+def list(songlist)
+  puts songlist
+end
