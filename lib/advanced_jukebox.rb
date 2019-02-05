@@ -38,7 +38,7 @@ def play(my_songs)
   puts "Please enter a song name or number:"
   chosen_song = gets.chomp
   if my_songs.find{|k,v|k==chosen_song}
-    open my_songs.select{|k,v|k==chosen_song}.values
+    puts my_songs.select{|k,v|k==chosen_song}.values
   else
     puts "Invalid input, please try again"
   end
