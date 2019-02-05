@@ -27,7 +27,7 @@ def play(songs)
   chosen_song=""
   chosen_song=gets.chomp
   if songs.include?
-
+  end
 end
 
 list(songs)
