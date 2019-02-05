@@ -29,7 +29,6 @@ def play(songs)
   if answer.class==Integer
     puts "col'e"
   end
-  chosen_song=gets.chomp
   if songs.include?(chosen_song)
     puts "Playing #{chosen_song}"
   else
