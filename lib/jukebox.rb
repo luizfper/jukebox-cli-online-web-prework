@@ -26,7 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   #chosen_song=""
   answer = gets.chomp
-    puts answer.class
+  puts answer.to_i
   if songs.include?(chosen_song)
     puts "Playing #{chosen_song}"
   else
