@@ -53,4 +53,4 @@ def run(my_songs)
 end
 
 #play(my_songs)
-open("./audio/Emerald-Park/01.mp3")
+open "./audio/Emerald-Park/01.mp3"
