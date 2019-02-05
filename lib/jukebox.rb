@@ -25,6 +25,10 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   #chosen_song=""
+  answer = gets.chomp
+  if answer.class=Integer
+    puts "col'e"
+  end
   chosen_song=gets.chomp
   if songs.include?(chosen_song)
     puts "Playing #{chosen_song}"
