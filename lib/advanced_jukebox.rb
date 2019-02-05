@@ -52,4 +52,5 @@ def run(my_songs)
   #this method is the same as in jukebox.rb
 end
 
-play(my_songs)
+#play(my_songs)
+open("./audio/Emerald-Park/01.mp3")
