@@ -26,9 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   #chosen_song=""
   answer = gets.chomp
-  if answer.is_a? Fixnum
-    puts "col'e"
-  end
+    puts answer
   if songs.include?(chosen_song)
     puts "Playing #{chosen_song}"
   else
