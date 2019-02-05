@@ -37,7 +37,7 @@ def play(my_songs)
   #get the file path of the song by looking it up in the my_songs hash
   puts "Please enter a song name or number:"
   chosen_song = gets.chomp
-  if songs.keys.include?(chosen_song)
+  if my_songs.keys.include?(chosen_song)
     puts "Playing #{chosen_song}"
   else
     puts "Invalid input, please try again"
