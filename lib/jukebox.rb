@@ -26,7 +26,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   #chosen_song=""
   answer = gets.chomp
-  if answer.class==Integer
+  if answer.class==Fixnum
     puts "col'e"
   end
   if songs.include?(chosen_song)
