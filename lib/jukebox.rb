@@ -28,6 +28,8 @@ def play(songs)
   answer = gets.chomp
   if answer.to_i!=0
     chosen_song=songs[answer.to_i-1]
+  else
+    chosen_song=answer
   end
   if songs.include?(chosen_song)
     puts "Playing #{chosen_song}"
